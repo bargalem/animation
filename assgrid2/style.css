@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*card design */
+.card{
+    width:fit-content;
+    height: auto;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 30vh;
+    text-align: center;
+
+
+}
+
+
+#spname:after{
+    content: "";
+    
+    animation:txtanimat 5s linear infinite;
+}
+@keyframes txtanimat{
+    0%{
+        content: "lifestyle";
+        color: white;
+        text-transform: uppercase;
+        background-color: green;
+        font-size: large;
+        font-weight: 800;
+        
+    }
+    50%{
+        content: "work";
+        color:white;
+        text-transform: uppercase;
+        background-color: rgb(61, 135, 233);
+        font-size: small;
+        font-weight: 1000;  
+    
+
+    }
+    100%{
+        content: "everything";
+        color: white;
+        text-transform: uppercase;
+        background-color: rgb(235, 51, 51);
+        font-size: large;
+        font-weight: 700;
+        
+    }
+}
